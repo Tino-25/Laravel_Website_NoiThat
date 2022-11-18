@@ -1,0 +1,193 @@
+.admin_main{
+
+}
+
+.admin_left{
+    width: var(--admin_width--left);
+    overflow-y: auto;
+    height: calc(100% - 0px);
+    position: fixed;
+    background-color: #2A3F54;
+}
+
+.left_head{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    color: var(--admin-white-color);
+}
+
+.left_head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.left_head__text{
+    padding-left: 8px;
+}
+
+.left_head__text span{
+    font-weight: 700;
+    display: inline-block;
+}   
+
+.left_head__text p{
+    font-size: 14px;
+    letter-spacing: -0.9px;
+    margin-bottom: 0;
+    transform: translateY(-5px);
+}
+
+.left_body{
+    padding: 20px 0;
+}
+
+.nav-list{
+    margin-bottom: 0;
+    padding-left: 0;
+    color: var(--admin-white-color);
+}
+
+.nav-list__item{
+    padding: 18px 12px 18px 12px;
+    border-top: 1px solid var(--admin-gray-opacity-color);
+}
+
+.nav-list__item--link{
+    color: var(--admin-white-color);
+    opacity: 0.6;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list__item--link i{
+    line-height: 24px;
+}
+
+.nav-list__item:hover, .nav-list__item--link:hover{
+    text-decoration: none;
+    color: var(--admin-white-color);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav-list__item:last-child{
+    border-bottom: 1px solid var(--admin-gray-opacity-color);
+}
+
+
+/* Scrollbar layout left - của thẻ div => nếu như v ::-webkit-scrollbar thì là của cả trang web*/
+div::-webkit-scrollbar {
+    width: 16px;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: rgba(38,185,154,.88);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+/* end scroll của thẻ div*/
+
+.admin_right{
+    margin-left: var(--admin_width--left);
+    width: var(--admin_width--right);
+}
+
+.right_head{
+    border-bottom: 1px solid var(--admin-gray-opacity-color);
+    text-align: right;
+}
+
+.right_head__content{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    float: right;
+}
+
+.right_head__content a{
+    font-size: 14px;
+    position: relative;
+    font-weight: 600;
+    color: black;
+    margin-left: 6px;
+}
+
+.right_head__content a:hover{
+    font-size: 16px;
+}
+
+.right_head--icon-bell{
+    font-size: 24px;
+    line-height: 70px;
+}
+
+
+.right_head__content img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+.right_head__content h6{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+.right_head__content:hover h6{
+    color: var(--admin-primary-color);
+    cursor: pointer;
+}
+
+.right_head__content:hover img{
+    transform: scale(1.1);
+}
+
+.right_body{
+    padding: 45px 0;
+}
+
+.form--wrap{
+    padding: 0 100px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.image_delete__btn{
+    text-align: center;
+    display: block;
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.image_delete__btn:hover{
+    color: #fff;
+    text-decoration: none;
+    filter: brightness(80%);
+}
+
+/*login admin*/
+#body_login_admin{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login-admin{
+    outline: none;
+    border: none;
+}

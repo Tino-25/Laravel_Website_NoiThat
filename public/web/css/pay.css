@@ -1,0 +1,65 @@
+#main_order{
+    font-size: 14px;
+}
+
+#body_pay{
+    margin: 45px 0;
+    font-size: 14px;
+}
+
+#body_pay input{
+    font-size: 14px;
+}
+
+.body-content{
+}
+
+.body-content__top h2{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.form_action input{
+    font-size: 14px;
+    padding: 18px 10px;
+}
+
+.form__btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 26px;
+}
+
+.table{
+    margin-top: 26px;
+}
+
+tfoot{
+    font-weight: bold;
+}
+
+
+.btn_order{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.btn_order:hover{
+    filter: brightness(80%);
+}
+
+.pay-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pay-btn.disble{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.continue-buy-btn{
+    display: block;
+}
